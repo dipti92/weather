@@ -101,7 +101,7 @@ class App extends React.Component{
        <div>
          <Form loadweather={this.getweather} err={this.state.err}/>
         
-    
+        
          <Weather
          city ={this.state.city}
          country={this.state.country}
@@ -111,7 +111,7 @@ class App extends React.Component{
          temp={this.state.temp}
          icon={this.state.icon}
          />
-       
+      
    
        </div>
     );
